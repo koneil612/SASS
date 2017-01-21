@@ -1,0 +1,34 @@
+body {
+  font: 100% "Sweet Pea";
+  font-size: 36px;
+  font-weight: bolder; }
+
+div {
+  background-color: #eeeeee; }
+
+#box {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px; }
+
+p {
+  background-color: #aaaaaa; }
+
+.nav ul {
+  background-color: red; }
+
+.nav li {
+  background-color: green; }
+
+.nav a {
+  background-color: blue; }
+
+.message, .warning {
+  border: 1px solid black;
+  padding: 10px;
+  color: orange; }
+
+.warning {
+  background-color: red; }
+
+/*# sourceMappingURL=style.css.map */

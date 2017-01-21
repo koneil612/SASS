@@ -1,0 +1,49 @@
+@import 'colors';
+@import 'mixins';
+@import 'fonts';
+
+body {
+    font: 100% $font-stack;
+    font-size: $fontheader;
+    font-weight: $fontweight
+}
+div {
+    background-color: $lightGray;
+}
+
+#box {
+    @include myradius(10px);
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    background-color: $darkGray;
+}
+
+
+
+.nav ul {
+    background-color: red;
+}
+
+.nav li {
+    background-color: green;
+}
+
+.nav a {
+    background-color: blue;
+}
+
+
+.message {
+    border: 1px solid black;
+    padding: 10px;
+    color: orange;
+}
+
+
+.warning {
+    @extend .message;
+    background-color: red;
+}
